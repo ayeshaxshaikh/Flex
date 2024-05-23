@@ -3,9 +3,104 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Netflix Cards</title>
+    <style>
+         @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+        * {
+            margin: 0;
+            padding: 0;
+        }
+        body {
+            font-family: 'Poppins', sans-serif;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            box-sizing: border-box;
+        }
+        main {
+            margin: 10px;
+            width: 700px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            gap: 20px;
+            flex-wrap: wrap;
+        }
+        main .card {
+            width: 180px;
+            height: 280px;
+            background: #fff;
+            box-shadow: 2px 2px 2px 2px rgba(201, 196, 196, 0.75);
+        }
+        main .card img {
+            width: 100%;
+            height: 60%;
+        }
+        main .card .title {
+            font-weight: 700;
+            text-align: center;
+            margin-top: 10px;
+            font-size: 14px;
+        }
+        main .card .rating {
+            font-size: 11px;
+            font-weight: 600;
+            margin-top: 10px;
+            text-align: center;
+        }
+        main .card .btn {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            margin-top: 10px;
+        }
+        main .card button {
+            border: none;
+            background: #77c4e2;
+            padding: 6px 15px;
+            font-size: 11px;
+            font-weight: 500;
+        }
+    </style>
 </head>
 <body>
-    
+    <main>
+        <div class="card">
+            <img src="https://s3.ap-south-1.amazonaws.com/assess-platform-prod-user-data/admin/65d5e1ddd4cb55efdec19120/Doctor-Strange--In-The-Multiverse-Of-Madness-r-705x750-36f0e140-b752-11ec-a762-319bdb0970f2.avif" alt="movie-pic">
+            <div class="title">Doctor Strange 2</div>
+            <div class="rating">Rating:- 4.5</div>
+            <div class="btn"><button>Book now</button></div>
+        </div>
+        <div class="card">
+            <img src="https://s3.ap-south-1.amazonaws.com/assess-platform-prod-user-data/admin/65d5e1ddd4cb55efdec19120/Doctor-Strange--In-The-Multiverse-Of-Madness-r-705x750-36f0e140-b752-11ec-a762-319bdb0970f2.avif" alt="movie-pic">
+            <div class="title">Doctor Strange 2</div>
+            <div class="rating">Rating:- 4.5</div>
+            <div class="btn"><button>Book now</button></div>
+        </div>
+        <div class="card">
+            <img src="https://s3.ap-south-1.amazonaws.com/assess-platform-prod-user-data/admin/65d5e1ddd4cb55efdec19120/Doctor-Strange--In-The-Multiverse-Of-Madness-r-705x750-36f0e140-b752-11ec-a762-319bdb0970f2.avif" alt="movie-pic">
+            <div class="title">Doctor Strange 2</div>
+            <div class="rating">Rating:- 4.5</div>
+            <div class="btn"><button>Book now</button></div>
+        </div>
+        <div class="card">
+            <img src="https://s3.ap-south-1.amazonaws.com/assess-platform-prod-user-data/admin/65d5e1ddd4cb55efdec19120/Doctor-Strange--In-The-Multiverse-Of-Madness-r-705x750-36f0e140-b752-11ec-a762-319bdb0970f2.avif" alt="movie-pic">
+            <div class="title">Doctor Strange 2</div>
+            <div class="rating">Rating:- 4.5</div>
+            <div class="btn"><button>Book now</button></div>
+        </div>
+        <div class="card">
+            <img src="https://s3.ap-south-1.amazonaws.com/assess-platform-prod-user-data/admin/65d5e1ddd4cb55efdec19120/Doctor-Strange--In-The-Multiverse-Of-Madness-r-705x750-36f0e140-b752-11ec-a762-319bdb0970f2.avif" alt="movie-pic">
+            <div class="title">Doctor Strange 2</div>
+            <div class="rating">Rating:- 4.5</div>
+            <div class="btn"><button>Book now</button></div>
+        </div>
+        <div class="card">
+            <img src="https://s3.ap-south-1.amazonaws.com/assess-platform-prod-user-data/admin/65d5e1ddd4cb55efdec19120/Doctor-Strange--In-The-Multiverse-Of-Madness-r-705x750-36f0e140-b752-11ec-a762-319bdb0970f2.avif" alt="movie-pic">
+            <div class="title">Doctor Strange 2</div>
+            <div class="rating">Rating:- 4.5</div>
+            <div class="btn"><button>Book now</button></div>
+        </div>
+    </main>
 </body>
 </html>
