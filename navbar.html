@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      .flex-container {
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
+        width: 70vw;
+      }
+      .container {
+        /* border: 1px solid red; */
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
+      }
+
+      .main {
+        background-color: rgb(229, 247, 247);
+        padding: 10px;
+        border-radius: 10px;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        width: 150px;
+      }
+      .flex {
+        border-radius: 5px;
+        border: 1px solid red;
+        padding: 10px;
+      }
+
+      .down {
+        transform: rotate(45deg);
+        -webkit-transform: rotate(45deg);
+      }
+
+      .arrow {
+        border: solid black;
+        border-width: 0 3px 3px 0;
+        display: inline-block;
+        padding: 3px;
+        margin: 5px;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <img src="https://masai-website-images.s3.ap-south-1.amazonaws.com/logo.png" />
+      <div class="flex-container">
+        <span>COURSES<i class="arrow down"></i></span>
+        <span>FEES & ISA</span>
+        <span>ABOUT US</span>
+        <span>HIRE FROM US</span>
+        <span>FAQ</span>
+        <span>EVENTS</span>
+
+        <span class="main">REFER & EARN<img src="heart.png" /></span>
+        <span class="flex">LOGIN</span>
+      </div>
+    </div>
+  </body>
+</html>
